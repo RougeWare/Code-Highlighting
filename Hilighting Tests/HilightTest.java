@@ -68,6 +68,10 @@ public class HilightTest<T extends Number> extends Object implements Cloneable {
         public static enum MyEnum { VALUE_A, VALUE_B, VALUE_C }
         public void implementMe();
     }
+    
+    public enum Days {
+        Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+    }
 }
 
 "Bad code that causes a compile error."
